@@ -8,6 +8,7 @@ public class GeoLocationTask extends AsyncTask<String, Void, String>{
 	
 	@Override
 	protected String doInBackground(String... params) {
+		String a = null;
 		return null;
 	}
 
