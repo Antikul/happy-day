@@ -40,6 +40,7 @@ public class ApplicationActivity extends Activity implements OnClickListener{
 				@Override
 				public void onProgressChanged(SeekBar seekBar, int progress,
 						boolean fromUser) {
+					textView.setText(String.valueOf(bar.getProgress()));
 				}
 			});
 			accesButton = (Button) findViewById(R.id.accesButton);
